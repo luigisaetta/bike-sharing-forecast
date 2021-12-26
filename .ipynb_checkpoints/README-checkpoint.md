@@ -10,4 +10,4 @@ Can be found here: https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset
 * catboost
 * PyTorch TabNet
 * K-fold CV
-* ensembling of different models
+* Ensembling of different models
