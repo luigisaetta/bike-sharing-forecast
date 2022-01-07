@@ -10,4 +10,8 @@ Can be found here: https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset
 * catboost
 * PyTorch TabNet
 * K-fold CV
-* Ensembling of different models
+* Ensembling of different models (catboost, TabNet)
+
+## Best result
+The best result has been obtained doing an ensemble of the best results obtained with single models
+
