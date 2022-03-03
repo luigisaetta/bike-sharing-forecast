@@ -7,6 +7,9 @@ The idea is to create a model that enable to predict the number of bicycles rent
 Can be found here: https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset
 
 ## Features
+* LIghtGBM
+* Oracle ADS
+* ADSTuner for HPO
 * catboost
 * PyTorch TabNet
 * K-fold CV
