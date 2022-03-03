@@ -1,0 +1,123 @@
+[I 23:32:18.279 NotebookApp] Serving notebooks from local directory: /home/proxima/bike-sharing-forecast
+[I 23:32:18.279 NotebookApp] Jupyter Notebook 6.4.8 is running at:
+[I 23:32:18.279 NotebookApp] http://Proxima-Server:8888/
+[I 23:32:18.279 NotebookApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[I 23:32:28.718 NotebookApp] 302 GET / (192.168.1.7) 1.780000ms
+[I 23:32:33.476 NotebookApp] Kernel started: 78f06a52-3f20-41cc-a5cf-ddcab4a6aa18, name: python3
+[I 23:32:38.847 NotebookApp] Starting buffering for 78f06a52-3f20-41cc-a5cf-ddcab4a6aa18:7eb2359647f34f328b4ee684b222d5c3
+[I 23:32:46.952 NotebookApp] Starting buffering for 78f06a52-3f20-41cc-a5cf-ddcab4a6aa18:d667dba657814b328b714c75bd6a67e6
+[I 23:32:47.198 NotebookApp] Kernel restarted: 78f06a52-3f20-41cc-a5cf-ddcab4a6aa18
+[I 23:32:47.219 NotebookApp] Restoring connection for 78f06a52-3f20-41cc-a5cf-ddcab4a6aa18:d667dba657814b328b714c75bd6a67e6
+[I 23:32:47.873 NotebookApp] Replaying 3 buffered messages
+[I 23:34:39.173 NotebookApp] Saving file at /lightgbm-adstuner-casual-registered-2.ipynb
+[I 00:26:41.904 NotebookApp] Starting buffering for 78f06a52-3f20-41cc-a5cf-ddcab4a6aa18:d667dba657814b328b714c75bd6a67e6
+[I 00:26:44.093 NotebookApp] Restoring connection for 78f06a52-3f20-41cc-a5cf-ddcab4a6aa18:d667dba657814b328b714c75bd6a67e6
+[W 00:28:14.095 NotebookApp] WebSocket ping timeout after 90001 ms.
+[I 00:28:19.098 NotebookApp] Starting buffering for 78f06a52-3f20-41cc-a5cf-ddcab4a6aa18:d667dba657814b328b714c75bd6a67e6
+[I 02:37:12.716 NotebookApp] Restoring connection for 78f06a52-3f20-41cc-a5cf-ddcab4a6aa18:d667dba657814b328b714c75bd6a67e6
+[W 02:38:42.720 NotebookApp] WebSocket ping timeout after 90003 ms.
+[I 02:38:47.722 NotebookApp] Starting buffering for 78f06a52-3f20-41cc-a5cf-ddcab4a6aa18:d667dba657814b328b714c75bd6a67e6
+[I 04:48:38.631 NotebookApp] Restoring connection for 78f06a52-3f20-41cc-a5cf-ddcab4a6aa18:d667dba657814b328b714c75bd6a67e6
+[W 04:50:08.633 NotebookApp] WebSocket ping timeout after 90001 ms.
+[I 04:50:13.638 NotebookApp] Starting buffering for 78f06a52-3f20-41cc-a5cf-ddcab4a6aa18:d667dba657814b328b714c75bd6a67e6
+[I 05:42:00.622 NotebookApp] Restoring connection for 78f06a52-3f20-41cc-a5cf-ddcab4a6aa18:d667dba657814b328b714c75bd6a67e6
+[I 05:43:34.844 NotebookApp] Saving file at /lightgbm-adstuner-casual-registered-2.ipynb
+[I 05:45:37.875 NotebookApp] Saving file at /lightgbm-adstuner-casual-registered-2.ipynb
+[I 05:54:26.711 NotebookApp] Kernel started: a9be82af-6d31-472d-8066-4067cdcd3abe, name: python3
+[I 05:54:31.482 NotebookApp] Starting buffering for a9be82af-6d31-472d-8066-4067cdcd3abe:232bd995a009462ba00fdd607bc3804d
+[I 05:54:31.726 NotebookApp] Kernel restarted: a9be82af-6d31-472d-8066-4067cdcd3abe
+[I 05:54:31.747 NotebookApp] Restoring connection for a9be82af-6d31-472d-8066-4067cdcd3abe:232bd995a009462ba00fdd607bc3804d
+[I 05:54:32.463 NotebookApp] Replaying 3 buffered messages
+[I 05:54:46.712 NotebookApp] Saving file at /lightgbm-adstuner-casual-registered-1.ipynb
+[I 05:56:33.253 NotebookApp] Saving file at /lightgbm-adstuner-casual-registered-1.ipynb
+[I 05:58:26.704 NotebookApp] Saving file at /lightgbm-adstuner-casual-registered-1.ipynb
+[I 06:00:26.687 NotebookApp] Saving file at /lightgbm-adstuner-casual-registered-1.ipynb
+[I 06:02:27.369 NotebookApp] Saving file at /lightgbm-adstuner-casual-registered-1.ipynb
+[W 06:05:54.145 NotebookApp] Notebook tabnet2-cv.ipynb is not trusted
+[I 06:05:54.346 NotebookApp] Kernel started: f68e69d6-7306-4804-8c00-35779d523eb9, name: python3
+[I 06:06:28.320 NotebookApp] Saving file at /lightgbm-adstuner-casual-registered-1.ipynb
+[I 06:07:55.170 NotebookApp] Saving file at /tabnet2-cv.ipynb
+[I 06:18:26.700 NotebookApp] Saving file at /lightgbm-adstuner-casual-registered-1.ipynb
+[I 06:44:27.295 NotebookApp] Saving file at /lightgbm-adstuner-casual-registered-1.ipynb
+[I 07:02:26.700 NotebookApp] Saving file at /lightgbm-adstuner-casual-registered-1.ipynb
+[I 07:34:28.042 NotebookApp] Saving file at /lightgbm-adstuner-casual-registered-1.ipynb
+[I 08:12:15.189 NotebookApp] Kernel started: e6ce94b2-e5ab-4d4a-bf24-76d6584d9495, name: python3
+[I 08:12:24.632 NotebookApp] Starting buffering for e6ce94b2-e5ab-4d4a-bf24-76d6584d9495:b0f37a9279ea439fa5be0abb499eabc8
+[I 08:12:24.876 NotebookApp] Kernel restarted: e6ce94b2-e5ab-4d4a-bf24-76d6584d9495
+[I 08:12:24.924 NotebookApp] Restoring connection for e6ce94b2-e5ab-4d4a-bf24-76d6584d9495:b0f37a9279ea439fa5be0abb499eabc8
+[I 08:12:25.578 NotebookApp] Replaying 3 buffered messages
+[I 08:12:29.742 NotebookApp] Saving file at /lightgbm-adstuner-casual-registered-1.ipynb
+[I 08:14:16.846 NotebookApp] Saving file at /lightgbm-adstuner-casual-registered-ensemble.ipynb
+[I 14:30:54.144 NotebookApp] Starting buffering for 78f06a52-3f20-41cc-a5cf-ddcab4a6aa18:d667dba657814b328b714c75bd6a67e6
+[I 14:30:54.146 NotebookApp] Starting buffering for a9be82af-6d31-472d-8066-4067cdcd3abe:232bd995a009462ba00fdd607bc3804d
+[I 14:30:54.149 NotebookApp] Starting buffering for f68e69d6-7306-4804-8c00-35779d523eb9:5eebe0c5af9042758bbcbd3ae806e587
+[I 14:30:54.150 NotebookApp] Starting buffering for e6ce94b2-e5ab-4d4a-bf24-76d6584d9495:b0f37a9279ea439fa5be0abb499eabc8
+[I 08:48:56.779 NotebookApp] 302 GET / (192.168.1.7) 1.390000ms
+[W 08:49:03.497 NotebookApp] Notebook lightgbm-adstuner.ipynb is not trusted
+[I 08:49:03.721 NotebookApp] Kernel started: d9f9c327-1448-444c-861e-c7b1038a78b8, name: python3
+[I 08:55:05.138 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[W 08:55:05.140 NotebookApp] Notebook lightgbm-adstuner.ipynb is not trusted
+[I 09:02:51.919 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[W 09:02:51.920 NotebookApp] Notebook lightgbm-adstuner.ipynb is not trusted
+[I 09:03:05.421 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[W 09:03:05.422 NotebookApp] Notebook lightgbm-adstuner.ipynb is not trusted
+[I 09:05:03.699 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[W 09:05:03.700 NotebookApp] Notebook lightgbm-adstuner.ipynb is not trusted
+[I 09:06:20.341 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[W 09:06:20.341 NotebookApp] Notebook lightgbm-adstuner.ipynb is not trusted
+[I 09:08:25.702 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[W 09:08:25.702 NotebookApp] Notebook lightgbm-adstuner.ipynb is not trusted
+[I 09:22:28.854 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[W 09:22:28.854 NotebookApp] Notebook lightgbm-adstuner.ipynb is not trusted
+[I 09:37:38.426 NotebookApp] Starting buffering for d9f9c327-1448-444c-861e-c7b1038a78b8:054703a09f3a4ec2b53dc98e4b9e1191
+[W 09:38:54.845 NotebookApp] Notebook lightgbm-adstuner.ipynb is not trusted
+[I 09:43:42.053 NotebookApp] Starting buffering for d9f9c327-1448-444c-861e-c7b1038a78b8:a673f36f7eb24e64999b1c6ac84e7449
+[I 11:04:29.950 NotebookApp] 302 GET / (192.168.1.7) 1.680000ms
+[W 11:04:33.712 NotebookApp] Notebook lightgbm-adstuner.ipynb is not trusted
+[I 11:38:33.275 NotebookApp] Saving file at /utils.py
+[I 12:01:06.859 NotebookApp] Starting buffering for d9f9c327-1448-444c-861e-c7b1038a78b8:8b8b7e118c054ae987af92c0154ab8d1
+[I 12:01:07.699 NotebookApp] Kernel restarted: d9f9c327-1448-444c-861e-c7b1038a78b8
+[I 12:01:07.718 NotebookApp] Restoring connection for d9f9c327-1448-444c-861e-c7b1038a78b8:8b8b7e118c054ae987af92c0154ab8d1
+[I 12:01:08.365 NotebookApp] Replaying 3 buffered messages
+[I 12:02:33.937 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 12:04:33.924 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 12:05:12.164 NotebookApp] Kernel interrupted: d9f9c327-1448-444c-861e-c7b1038a78b8
+[I 12:05:48.197 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 12:05:51.919 NotebookApp] Starting buffering for d9f9c327-1448-444c-861e-c7b1038a78b8:8b8b7e118c054ae987af92c0154ab8d1
+[I 12:05:52.961 NotebookApp] Kernel restarted: d9f9c327-1448-444c-861e-c7b1038a78b8
+[I 12:05:53.060 NotebookApp] Restoring connection for d9f9c327-1448-444c-861e-c7b1038a78b8:8b8b7e118c054ae987af92c0154ab8d1
+[I 12:05:53.623 NotebookApp] Replaying 3 buffered messages
+[I 12:06:33.922 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 12:08:33.916 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 12:08:58.519 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 12:08:59.329 NotebookApp] Kernel interrupted: d9f9c327-1448-444c-861e-c7b1038a78b8
+[I 12:09:50.711 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 12:09:55.431 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 12:10:02.543 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 12:10:21.251 NotebookApp] Starting buffering for d9f9c327-1448-444c-861e-c7b1038a78b8:8b8b7e118c054ae987af92c0154ab8d1
+[I 12:10:22.186 NotebookApp] Kernel restarted: d9f9c327-1448-444c-861e-c7b1038a78b8
+[I 12:10:22.271 NotebookApp] Restoring connection for d9f9c327-1448-444c-861e-c7b1038a78b8:8b8b7e118c054ae987af92c0154ab8d1
+[I 12:10:22.888 NotebookApp] Replaying 3 buffered messages
+[I 12:10:33.921 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 12:12:33.922 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 12:13:09.633 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 12:16:18.728 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 12:18:33.924 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 12:22:33.916 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 12:23:42.139 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 12:26:33.917 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 12:30:58.587 NotebookApp] Starting buffering for 78f06a52-3f20-41cc-a5cf-ddcab4a6aa18:edc7490fa9bb42f89c1ef6d9ae07293b
+[I 12:31:05.450 NotebookApp] Starting buffering for a9be82af-6d31-472d-8066-4067cdcd3abe:85a6a6ba4a6a48df989c1e9a49e9ff83
+[I 12:32:37.751 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 12:48:36.257 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 12:56:33.972 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 13:02:33.927 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 13:04:33.919 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 13:06:40.695 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 13:08:36.606 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 13:10:33.917 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 13:12:38.762 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 13:14:18.766 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 13:14:33.930 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 13:14:39.750 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 13:15:13.454 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
