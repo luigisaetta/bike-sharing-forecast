@@ -121,3 +121,277 @@
 [I 13:14:33.930 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
 [I 13:14:39.750 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
 [I 13:15:13.454 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[I 14:41:27.774 NotebookApp] Starting buffering for d9f9c327-1448-444c-861e-c7b1038a78b8:8b8b7e118c054ae987af92c0154ab8d1
+[W 14:41:28.032 NotebookApp] Notebook lightgbm-adstuner.ipynb is not trusted
+[I 16:12:31.984 NotebookApp] Starting buffering for d9f9c327-1448-444c-861e-c7b1038a78b8:8f2f89bac1424e618044ea230834a9d1
+[I 17:06:07.957 NotebookApp] 302 GET / (192.168.1.7) 1.240000ms
+[W 17:06:14.095 NotebookApp] Notebook lightgbm-adstuner.ipynb is not trusted
+[I 17:39:24.766 NotebookApp] Starting buffering for d9f9c327-1448-444c-861e-c7b1038a78b8:d0bd398552244f56811f95402a5aa400
+[I 17:48:39.856 NotebookApp] 302 GET / (192.168.1.7) 1.110000ms
+[I 17:48:50.496 NotebookApp] Uploading file to /document-demo1.ipynb
+[I 17:48:56.791 NotebookApp] Kernel started: 02e59d28-0170-49c9-9d2d-f2705bc65c7d, name: python3
+[I 17:49:53.086 NotebookApp] Uploading file to /document-demo2.ipynb
+[I 17:49:56.222 NotebookApp] Kernel started: e9e7fc24-0653-4d78-94a8-45a1050b97e1, name: python3
+[I 17:50:58.016 NotebookApp] Saving file at /document-demo1.ipynb
+[I 17:51:56.719 NotebookApp] Saving file at /document-demo2.ipynb
+[I 17:58:21.572 NotebookApp] Kernel shutdown: 02e59d28-0170-49c9-9d2d-f2705bc65c7d
+[I 17:58:21.573 NotebookApp] Kernel shutdown: e9e7fc24-0653-4d78-94a8-45a1050b97e1
+[W 17:58:21.575 NotebookApp] delete /catboost3-cv.ipynb
+[W 17:58:21.582 NotebookApp] delete /document-demo1.ipynb
+[W 17:58:21.583 NotebookApp] delete /document-demo2.ipynb
+[I 17:58:21.629 NotebookApp] Starting buffering for e9e7fc24-0653-4d78-94a8-45a1050b97e1:a707cae942bd4b338b9c623acf3916ab
+[I 17:58:21.631 NotebookApp] Kernel shutdown: e9e7fc24-0653-4d78-94a8-45a1050b97e1
+[E 17:58:21.632 NotebookApp] Uncaught exception DELETE /api/sessions/1f1e45ff-5d55-4046-a6be-f9adf8e4a775 (192.168.1.7)
+    HTTPServerRequest(protocol='http', host='192.168.1.6:8888', method='DELETE', uri='/api/sessions/1f1e45ff-5d55-4046-a6be-f9adf8e4a775', version='HTTP/1.1', remote_ip='192.168.1.7')
+    Traceback (most recent call last):
+      File "/home/proxima/anaconda3/envs/ads-local3/lib/python3.8/site-packages/tornado/web.py", line 1704, in _execute
+        result = await result
+      File "/home/proxima/anaconda3/envs/ads-local3/lib/python3.8/site-packages/tornado/gen.py", line 769, in run
+        yielded = self.gen.throw(*exc_info)  # type: ignore
+      File "/home/proxima/anaconda3/envs/ads-local3/lib/python3.8/site-packages/notebook/services/sessions/handlers.py", line 162, in delete
+        yield maybe_future(sm.delete_session(session_id))
+      File "/home/proxima/anaconda3/envs/ads-local3/lib/python3.8/site-packages/tornado/gen.py", line 762, in run
+        value = future.result()
+      File "/home/proxima/anaconda3/envs/ads-local3/lib/python3.8/site-packages/tornado/gen.py", line 775, in run
+        yielded = self.gen.send(value)
+      File "/home/proxima/anaconda3/envs/ads-local3/lib/python3.8/site-packages/notebook/services/sessions/sessionmanager.py", line 287, in delete_session
+        yield maybe_future(self.kernel_manager.shutdown_kernel(session['kernel']['id']))
+      File "/home/proxima/anaconda3/envs/ads-local3/lib/python3.8/site-packages/notebook/services/kernels/kernelmanager.py", line 304, in shutdown_kernel
+        self.pinned_superclass.shutdown_kernel(self, kernel_id, now=now, restart=restart)
+      File "/home/proxima/anaconda3/envs/ads-local3/lib/python3.8/site-packages/jupyter_client/utils.py", line 26, in wrapped
+        raise e
+      File "/home/proxima/anaconda3/envs/ads-local3/lib/python3.8/site-packages/jupyter_client/utils.py", line 23, in wrapped
+        return loop.run_until_complete(future)
+      File "/home/proxima/anaconda3/envs/ads-local3/lib/python3.8/site-packages/nest_asyncio.py", line 70, in run_until_complete
+        return f.result()
+      File "/home/proxima/anaconda3/envs/ads-local3/lib/python3.8/asyncio/futures.py", line 178, in result
+        raise self._exception
+      File "/home/proxima/anaconda3/envs/ads-local3/lib/python3.8/asyncio/tasks.py", line 280, in __step
+        result = coro.send(None)
+      File "/home/proxima/anaconda3/envs/ads-local3/lib/python3.8/site-packages/jupyter_client/multikernelmanager.py", line 274, in _async_shutdown_kernel
+        if km.ready.exception():
+    asyncio.exceptions.InvalidStateError: Exception is not set.
+[W 17:58:21.635 NotebookApp] Unhandled error
+[E 17:58:21.636 NotebookApp] {
+      "Host": "192.168.1.6:8888",
+      "Connection": "keep-alive",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|76bc2cdd|01fb5d8b6b44d1dbd69da56a89123c57|1646173948",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36",
+      "Origin": "http://192.168.1.6:8888",
+      "Referer": "http://192.168.1.6:8888/notebooks/document-demo2.ipynb",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+      "Cookie": "username-192-168-1-6-8888=\"2|1:0|10:1646117449|25:username-192-168-1-6-8888|44:MTg3MDg0Y2NjNWE5NGMzZDlmMGUwY2RkMzI5ZWUzNTg=|92584bc9844c5c827744f05ec49f70252c6fb1a9d9e79b3c263846fd9940e259\"; _xsrf=2|76bc2cdd|01fb5d8b6b44d1dbd69da56a89123c57|1646173948"
+    }
+[E 17:58:21.636 NotebookApp] 500 DELETE /api/sessions/1f1e45ff-5d55-4046-a6be-f9adf8e4a775 (192.168.1.7) 5.880000ms referer=http://192.168.1.6:8888/notebooks/document-demo2.ipynb
+[I 17:58:21.840 NotebookApp] Starting buffering for 02e59d28-0170-49c9-9d2d-f2705bc65c7d:1a89248042a043d6b1543e8fe2e2805c
+[I 17:58:21.844 NotebookApp] Kernel shutdown: 02e59d28-0170-49c9-9d2d-f2705bc65c7d
+[E 17:58:21.844 NotebookApp] Uncaught exception DELETE /api/sessions/0634e1a1-c8d8-478e-8250-60183c7a3ea1 (192.168.1.7)
+    HTTPServerRequest(protocol='http', host='192.168.1.6:8888', method='DELETE', uri='/api/sessions/0634e1a1-c8d8-478e-8250-60183c7a3ea1', version='HTTP/1.1', remote_ip='192.168.1.7')
+    Traceback (most recent call last):
+      File "/home/proxima/anaconda3/envs/ads-local3/lib/python3.8/site-packages/tornado/web.py", line 1704, in _execute
+        result = await result
+      File "/home/proxima/anaconda3/envs/ads-local3/lib/python3.8/site-packages/tornado/gen.py", line 769, in run
+        yielded = self.gen.throw(*exc_info)  # type: ignore
+      File "/home/proxima/anaconda3/envs/ads-local3/lib/python3.8/site-packages/notebook/services/sessions/handlers.py", line 162, in delete
+        yield maybe_future(sm.delete_session(session_id))
+      File "/home/proxima/anaconda3/envs/ads-local3/lib/python3.8/site-packages/tornado/gen.py", line 762, in run
+        value = future.result()
+      File "/home/proxima/anaconda3/envs/ads-local3/lib/python3.8/site-packages/tornado/gen.py", line 775, in run
+        yielded = self.gen.send(value)
+      File "/home/proxima/anaconda3/envs/ads-local3/lib/python3.8/site-packages/notebook/services/sessions/sessionmanager.py", line 287, in delete_session
+        yield maybe_future(self.kernel_manager.shutdown_kernel(session['kernel']['id']))
+      File "/home/proxima/anaconda3/envs/ads-local3/lib/python3.8/site-packages/notebook/services/kernels/kernelmanager.py", line 304, in shutdown_kernel
+        self.pinned_superclass.shutdown_kernel(self, kernel_id, now=now, restart=restart)
+      File "/home/proxima/anaconda3/envs/ads-local3/lib/python3.8/site-packages/jupyter_client/utils.py", line 26, in wrapped
+        raise e
+      File "/home/proxima/anaconda3/envs/ads-local3/lib/python3.8/site-packages/jupyter_client/utils.py", line 23, in wrapped
+        return loop.run_until_complete(future)
+      File "/home/proxima/anaconda3/envs/ads-local3/lib/python3.8/site-packages/nest_asyncio.py", line 70, in run_until_complete
+        return f.result()
+      File "/home/proxima/anaconda3/envs/ads-local3/lib/python3.8/asyncio/futures.py", line 178, in result
+        raise self._exception
+      File "/home/proxima/anaconda3/envs/ads-local3/lib/python3.8/asyncio/tasks.py", line 280, in __step
+        result = coro.send(None)
+      File "/home/proxima/anaconda3/envs/ads-local3/lib/python3.8/site-packages/jupyter_client/multikernelmanager.py", line 274, in _async_shutdown_kernel
+        if km.ready.exception():
+    asyncio.exceptions.InvalidStateError: Exception is not set.
+[W 17:58:21.845 NotebookApp] Unhandled error
+[E 17:58:21.846 NotebookApp] {
+      "Host": "192.168.1.6:8888",
+      "Connection": "keep-alive",
+      "Accept": "application/json, text/javascript, */*; q=0.01",
+      "X-Requested-With": "XMLHttpRequest",
+      "X-Xsrftoken": "2|76bc2cdd|01fb5d8b6b44d1dbd69da56a89123c57|1646173948",
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.109 Safari/537.36",
+      "Origin": "http://192.168.1.6:8888",
+      "Referer": "http://192.168.1.6:8888/notebooks/document-demo1.ipynb",
+      "Accept-Encoding": "gzip, deflate",
+      "Accept-Language": "en-GB,en-US;q=0.9,en;q=0.8",
+      "Cookie": "username-192-168-1-6-8888=\"2|1:0|10:1646117449|25:username-192-168-1-6-8888|44:MTg3MDg0Y2NjNWE5NGMzZDlmMGUwY2RkMzI5ZWUzNTg=|92584bc9844c5c827744f05ec49f70252c6fb1a9d9e79b3c263846fd9940e259\"; _xsrf=2|76bc2cdd|01fb5d8b6b44d1dbd69da56a89123c57|1646173948"
+    }
+[E 17:58:21.846 NotebookApp] 500 DELETE /api/sessions/0634e1a1-c8d8-478e-8250-60183c7a3ea1 (192.168.1.7) 4.300000ms referer=http://192.168.1.6:8888/notebooks/document-demo1.ipynb
+[W 17:58:27.154 NotebookApp] Notebook lightgbm-adstuner.ipynb is not trusted
+[I 20:00:43.693 NotebookApp] Starting buffering for d9f9c327-1448-444c-861e-c7b1038a78b8:eed4404ce4a342beb967273f70c9fdfc
+[I 20:00:45.832 NotebookApp] Restoring connection for d9f9c327-1448-444c-861e-c7b1038a78b8:eed4404ce4a342beb967273f70c9fdfc
+[W 20:03:45.834 NotebookApp] WebSocket ping timeout after 119942 ms.
+[I 20:03:50.837 NotebookApp] Starting buffering for d9f9c327-1448-444c-861e-c7b1038a78b8:eed4404ce4a342beb967273f70c9fdfc
+[I 20:12:53.271 NotebookApp] Restoring connection for d9f9c327-1448-444c-861e-c7b1038a78b8:eed4404ce4a342beb967273f70c9fdfc
+[I 20:58:54.993 NotebookApp] Saving file at /lightgbm-adstuner.ipynb
+[W 20:58:54.995 NotebookApp] Notebook lightgbm-adstuner.ipynb is not trusted
+[I 22:01:05.905 NotebookApp] Copying lightgbm-adstuner.ipynb to 
+[W 22:01:05.920 NotebookApp] Notebook lightgbm-adstuner.ipynb is not trusted
+[W 22:01:05.934 NotebookApp] Notebook lightgbm-adstuner-Copy1.ipynb is not trusted
+[W 22:01:06.629 NotebookApp] Notebook lightgbm-adstuner-Copy1.ipynb is not trusted
+[I 22:01:06.865 NotebookApp] Kernel started: b0e5a755-c868-4609-8613-cc473e00f78b, name: python3
+[I 22:01:50.071 NotebookApp] Starting buffering for b0e5a755-c868-4609-8613-cc473e00f78b:c3467b7abbef4446a408682d2155aeb2
+[I 22:01:50.318 NotebookApp] Kernel restarted: b0e5a755-c868-4609-8613-cc473e00f78b
+[I 22:01:50.414 NotebookApp] Restoring connection for b0e5a755-c868-4609-8613-cc473e00f78b:c3467b7abbef4446a408682d2155aeb2
+[I 22:01:51.106 NotebookApp] Replaying 3 buffered messages
+[I 22:02:00.181 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 22:03:06.872 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 22:05:06.851 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 22:07:07.567 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 22:09:07.390 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 22:14:09.895 NotebookApp] Kernel interrupted: b0e5a755-c868-4609-8613-cc473e00f78b
+[I 22:14:13.163 NotebookApp] Kernel interrupted: b0e5a755-c868-4609-8613-cc473e00f78b
+[I 22:14:24.058 NotebookApp] Kernel interrupted: b0e5a755-c868-4609-8613-cc473e00f78b
+[I 22:15:07.393 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 22:17:06.847 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 22:18:26.141 NotebookApp] Starting buffering for b0e5a755-c868-4609-8613-cc473e00f78b:c3467b7abbef4446a408682d2155aeb2
+[I 22:18:27.178 NotebookApp] Kernel restarted: b0e5a755-c868-4609-8613-cc473e00f78b
+[I 22:18:27.198 NotebookApp] Restoring connection for b0e5a755-c868-4609-8613-cc473e00f78b:c3467b7abbef4446a408682d2155aeb2
+[I 22:18:27.982 NotebookApp] Replaying 3 buffered messages
+[I 22:19:06.841 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 22:21:06.848 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 22:23:06.845 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 22:25:08.520 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 22:27:06.844 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 22:29:07.283 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 22:31:09.556 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 22:33:06.853 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 22:35:06.852 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 22:39:10.014 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 22:41:06.849 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 22:43:07.640 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 22:49:06.857 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 22:59:06.861 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 23:03:06.844 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 23:05:06.844 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 23:07:12.626 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 23:11:12.073 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 23:13:09.117 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 23:17:12.677 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 23:19:06.852 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 23:21:06.851 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 23:23:06.847 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 23:25:11.336 NotebookApp] Saving file at /xgb-adstuner.ipynb
+[I 00:01:08.620 NotebookApp] Starting buffering for b0e5a755-c868-4609-8613-cc473e00f78b:c3467b7abbef4446a408682d2155aeb2
+[I 00:01:08.621 NotebookApp] Starting buffering for d9f9c327-1448-444c-861e-c7b1038a78b8:eed4404ce4a342beb967273f70c9fdfc
+[I 00:01:10.969 NotebookApp] Restoring connection for b0e5a755-c868-4609-8613-cc473e00f78b:c3467b7abbef4446a408682d2155aeb2
+[I 00:01:10.990 NotebookApp] Restoring connection for d9f9c327-1448-444c-861e-c7b1038a78b8:eed4404ce4a342beb967273f70c9fdfc
+[W 00:02:40.970 NotebookApp] WebSocket ping timeout after 90000 ms.
+[W 00:02:40.990 NotebookApp] WebSocket ping timeout after 90000 ms.
+[I 00:02:45.972 NotebookApp] Starting buffering for b0e5a755-c868-4609-8613-cc473e00f78b:c3467b7abbef4446a408682d2155aeb2
+[I 00:02:45.993 NotebookApp] Starting buffering for d9f9c327-1448-444c-861e-c7b1038a78b8:eed4404ce4a342beb967273f70c9fdfc
+[I 01:25:05.877 NotebookApp] Restoring connection for b0e5a755-c868-4609-8613-cc473e00f78b:c3467b7abbef4446a408682d2155aeb2
+[I 01:25:05.900 NotebookApp] Restoring connection for d9f9c327-1448-444c-861e-c7b1038a78b8:eed4404ce4a342beb967273f70c9fdfc
+[W 01:26:35.879 NotebookApp] WebSocket ping timeout after 90001 ms.
+[W 01:26:35.901 NotebookApp] WebSocket ping timeout after 90000 ms.
+[I 01:26:40.881 NotebookApp] Starting buffering for b0e5a755-c868-4609-8613-cc473e00f78b:c3467b7abbef4446a408682d2155aeb2
+[I 01:26:40.903 NotebookApp] Starting buffering for d9f9c327-1448-444c-861e-c7b1038a78b8:eed4404ce4a342beb967273f70c9fdfc
+[I 02:41:56.336 NotebookApp] Restoring connection for b0e5a755-c868-4609-8613-cc473e00f78b:c3467b7abbef4446a408682d2155aeb2
+[I 02:41:56.354 NotebookApp] Restoring connection for d9f9c327-1448-444c-861e-c7b1038a78b8:eed4404ce4a342beb967273f70c9fdfc
+[W 02:43:26.336 NotebookApp] WebSocket ping timeout after 90000 ms.
+[W 02:43:26.355 NotebookApp] WebSocket ping timeout after 90000 ms.
+[I 02:43:31.338 NotebookApp] Starting buffering for b0e5a755-c868-4609-8613-cc473e00f78b:c3467b7abbef4446a408682d2155aeb2
+[I 02:43:31.356 NotebookApp] Starting buffering for d9f9c327-1448-444c-861e-c7b1038a78b8:eed4404ce4a342beb967273f70c9fdfc
+[I 04:03:25.036 NotebookApp] Restoring connection for b0e5a755-c868-4609-8613-cc473e00f78b:c3467b7abbef4446a408682d2155aeb2
+[I 04:03:25.054 NotebookApp] Restoring connection for d9f9c327-1448-444c-861e-c7b1038a78b8:eed4404ce4a342beb967273f70c9fdfc
+[W 04:04:55.038 NotebookApp] WebSocket ping timeout after 90001 ms.
+[W 04:04:55.055 NotebookApp] WebSocket ping timeout after 90000 ms.
+[I 04:05:00.040 NotebookApp] Starting buffering for b0e5a755-c868-4609-8613-cc473e00f78b:c3467b7abbef4446a408682d2155aeb2
+[I 04:05:00.057 NotebookApp] Starting buffering for d9f9c327-1448-444c-861e-c7b1038a78b8:eed4404ce4a342beb967273f70c9fdfc
+[I 05:25:34.856 NotebookApp] Restoring connection for b0e5a755-c868-4609-8613-cc473e00f78b:c3467b7abbef4446a408682d2155aeb2
+[I 05:25:34.876 NotebookApp] Restoring connection for d9f9c327-1448-444c-861e-c7b1038a78b8:eed4404ce4a342beb967273f70c9fdfc
+[W 05:27:04.857 NotebookApp] WebSocket ping timeout after 90001 ms.
+[W 05:27:04.877 NotebookApp] WebSocket ping timeout after 90001 ms.
+[I 05:27:09.859 NotebookApp] Starting buffering for b0e5a755-c868-4609-8613-cc473e00f78b:c3467b7abbef4446a408682d2155aeb2
+[I 05:27:09.880 NotebookApp] Starting buffering for d9f9c327-1448-444c-861e-c7b1038a78b8:eed4404ce4a342beb967273f70c9fdfc
+[I 06:47:05.547 NotebookApp] Restoring connection for b0e5a755-c868-4609-8613-cc473e00f78b:c3467b7abbef4446a408682d2155aeb2
+[I 06:47:05.572 NotebookApp] Restoring connection for d9f9c327-1448-444c-861e-c7b1038a78b8:eed4404ce4a342beb967273f70c9fdfc
+[W 06:48:35.548 NotebookApp] WebSocket ping timeout after 90001 ms.
+[W 06:48:35.573 NotebookApp] WebSocket ping timeout after 90001 ms.
+[I 06:48:40.551 NotebookApp] Starting buffering for b0e5a755-c868-4609-8613-cc473e00f78b:c3467b7abbef4446a408682d2155aeb2
+[I 06:48:40.574 NotebookApp] Starting buffering for d9f9c327-1448-444c-861e-c7b1038a78b8:eed4404ce4a342beb967273f70c9fdfc
+[I 08:10:24.650 NotebookApp] Restoring connection for b0e5a755-c868-4609-8613-cc473e00f78b:c3467b7abbef4446a408682d2155aeb2
+[I 08:10:24.671 NotebookApp] Restoring connection for d9f9c327-1448-444c-861e-c7b1038a78b8:eed4404ce4a342beb967273f70c9fdfc
+[W 08:11:54.652 NotebookApp] WebSocket ping timeout after 90001 ms.
+[W 08:11:54.672 NotebookApp] WebSocket ping timeout after 90001 ms.
+[I 08:11:59.654 NotebookApp] Starting buffering for b0e5a755-c868-4609-8613-cc473e00f78b:c3467b7abbef4446a408682d2155aeb2
+[I 08:11:59.675 NotebookApp] Starting buffering for d9f9c327-1448-444c-861e-c7b1038a78b8:eed4404ce4a342beb967273f70c9fdfc
+[I 08:14:31.557 NotebookApp] Restoring connection for b0e5a755-c868-4609-8613-cc473e00f78b:c3467b7abbef4446a408682d2155aeb2
+[I 08:14:31.580 NotebookApp] Restoring connection for d9f9c327-1448-444c-861e-c7b1038a78b8:eed4404ce4a342beb967273f70c9fdfc
+[I 08:51:39.933 NotebookApp] Starting buffering for d9f9c327-1448-444c-861e-c7b1038a78b8:eed4404ce4a342beb967273f70c9fdfc
+[I 11:31:39.725 NotebookApp] Starting buffering for b0e5a755-c868-4609-8613-cc473e00f78b:c3467b7abbef4446a408682d2155aeb2
+[I 13:19:14.742 NotebookApp] 302 GET / (192.168.1.7) 1.290000ms
+[W 13:19:19.076 NotebookApp] Notebook lightgbm-adstuner.ipynb is not trusted
+[I 15:46:44.724 NotebookApp] Starting buffering for d9f9c327-1448-444c-861e-c7b1038a78b8:f15390106d6c40648cc9481505d95626
+[I 15:46:46.502 NotebookApp] Restoring connection for d9f9c327-1448-444c-861e-c7b1038a78b8:f15390106d6c40648cc9481505d95626
+[W 15:49:46.502 NotebookApp] WebSocket ping timeout after 119895 ms.
+[I 15:49:51.504 NotebookApp] Starting buffering for d9f9c327-1448-444c-861e-c7b1038a78b8:f15390106d6c40648cc9481505d95626
+[I 15:55:37.583 NotebookApp] Restoring connection for d9f9c327-1448-444c-861e-c7b1038a78b8:f15390106d6c40648cc9481505d95626
+[I 15:56:26.677 NotebookApp] Uploading file to /lgb_condatest.ipynb
+[I 15:56:34.579 NotebookApp] Kernel started: 56f6eada-3b6a-4146-98c6-5f39c8b22901, name: python3
+[I 15:56:43.915 NotebookApp] Starting buffering for 56f6eada-3b6a-4146-98c6-5f39c8b22901:be5c0b6231594ce6822d8d3a98a6752b
+[I 15:56:44.161 NotebookApp] Kernel restarted: 56f6eada-3b6a-4146-98c6-5f39c8b22901
+[I 15:56:44.228 NotebookApp] Restoring connection for 56f6eada-3b6a-4146-98c6-5f39c8b22901:be5c0b6231594ce6822d8d3a98a6752b
+[I 15:56:45.239 NotebookApp] Replaying 3 buffered messages
+[I 15:58:41.035 NotebookApp] Saving file at /lgb_condatest.ipynb
+[I 16:07:54.479 NotebookApp] Starting buffering for 56f6eada-3b6a-4146-98c6-5f39c8b22901:be5c0b6231594ce6822d8d3a98a6752b
+[I 16:07:54.819 NotebookApp] Kernel restarted: 56f6eada-3b6a-4146-98c6-5f39c8b22901
+[I 16:07:54.837 NotebookApp] Restoring connection for 56f6eada-3b6a-4146-98c6-5f39c8b22901:be5c0b6231594ce6822d8d3a98a6752b
+[I 16:07:55.586 NotebookApp] Replaying 3 buffered messages
+[I 16:08:42.084 NotebookApp] Saving file at /lgb_condatest.ipynb
+[W 16:10:44.964 NotebookApp] Notebook lightgbm-adstuner.ipynb is not trusted
+[I 16:10:56.037 NotebookApp] Copying lightgbm-adstuner.ipynb to 
+[W 16:10:56.054 NotebookApp] Notebook lightgbm-adstuner.ipynb is not trusted
+[W 16:10:56.068 NotebookApp] Notebook lightgbm-adstuner-Copy1.ipynb is not trusted
+[W 16:10:56.691 NotebookApp] Notebook lightgbm-adstuner-Copy1.ipynb is not trusted
+[I 16:10:56.915 NotebookApp] Kernel started: 86bc9501-31df-4af3-a60d-226edc8b9387, name: python3
+[I 16:11:16.025 NotebookApp] Saving file at /lightgbm-single-model.ipynb
+[W 16:11:16.026 NotebookApp] Notebook lightgbm-single-model.ipynb is not trusted
+[I 16:11:22.013 NotebookApp] Starting buffering for 86bc9501-31df-4af3-a60d-226edc8b9387:f9f753a6348d41cd90b91c7c2ae4f2ee
+[I 16:11:22.258 NotebookApp] Kernel restarted: 86bc9501-31df-4af3-a60d-226edc8b9387
+[I 16:11:22.278 NotebookApp] Restoring connection for 86bc9501-31df-4af3-a60d-226edc8b9387:f9f753a6348d41cd90b91c7c2ae4f2ee
+[I 16:11:23.292 NotebookApp] Replaying 3 buffered messages
+[I 16:12:56.912 NotebookApp] Saving file at /lightgbm-single-model.ipynb
+[I 16:13:45.957 NotebookApp] Saving file at /lightgbm-single-model.ipynb
+[I 16:13:49.886 NotebookApp] Starting buffering for 86bc9501-31df-4af3-a60d-226edc8b9387:f9f753a6348d41cd90b91c7c2ae4f2ee
+[I 16:13:58.345 NotebookApp] Kernel shutdown: 86bc9501-31df-4af3-a60d-226edc8b9387
+[W 16:13:58.346 NotebookApp] delete /lightgbm-single-model.ipynb
+[W 16:14:01.288 NotebookApp] Notebook lightgbm-adstuner.ipynb is not trusted
+[I 16:14:07.928 NotebookApp] Copying lightgbm-adstuner.ipynb to 
+[W 16:14:07.946 NotebookApp] Notebook lightgbm-adstuner.ipynb is not trusted
+[W 16:14:07.960 NotebookApp] Notebook lightgbm-adstuner-Copy1.ipynb is not trusted
+[W 16:14:08.587 NotebookApp] Notebook lightgbm-adstuner-Copy1.ipynb is not trusted
+[I 16:14:08.810 NotebookApp] Kernel started: 7dfa733a-b097-4ea7-bc6a-25baed10a800, name: python3
+[I 16:14:41.037 NotebookApp] Saving file at /lightgbm-single-model.ipynb
+[W 16:14:41.037 NotebookApp] Notebook lightgbm-single-model.ipynb is not trusted
+[I 16:15:44.871 NotebookApp] Saving file at /lightgbm-single-model.ipynb
+[W 16:15:44.872 NotebookApp] Notebook lightgbm-single-model.ipynb is not trusted
+[I 16:16:08.799 NotebookApp] Saving file at /lightgbm-single-model.ipynb
+[W 16:16:08.800 NotebookApp] Notebook lightgbm-single-model.ipynb is not trusted
+[I 16:16:09.068 NotebookApp] Saving file at /lightgbm-single-model.ipynb
+[W 16:16:09.069 NotebookApp] Notebook lightgbm-single-model.ipynb is not trusted
+[I 16:16:13.052 NotebookApp] Saving file at /lightgbm-single-model.ipynb
+[W 16:16:13.053 NotebookApp] Notebook lightgbm-single-model.ipynb is not trusted
+[I 16:16:16.360 NotebookApp] Starting buffering for 7dfa733a-b097-4ea7-bc6a-25baed10a800:d2ceb7e444a64fee8cf2a007239ff657
+[I 16:16:16.602 NotebookApp] Kernel restarted: 7dfa733a-b097-4ea7-bc6a-25baed10a800
+[I 16:16:16.622 NotebookApp] Restoring connection for 7dfa733a-b097-4ea7-bc6a-25baed10a800:d2ceb7e444a64fee8cf2a007239ff657
+[I 16:16:17.306 NotebookApp] Replaying 3 buffered messages
+[I 16:16:58.985 NotebookApp] Saving file at /lightgbm-single-model.ipynb
+[I 16:18:08.792 NotebookApp] Saving file at /lightgbm-single-model.ipynb
+[I 16:18:19.836 NotebookApp] Saving file at /lightgbm-single-model.ipynb
