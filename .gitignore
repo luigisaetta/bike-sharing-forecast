@@ -1,1 +1,3 @@
 sub*.csv
+*.out
+

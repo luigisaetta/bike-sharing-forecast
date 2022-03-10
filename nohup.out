@@ -2615,3 +2615,6 @@ WARNING:root:kernel 5a0f6e5f-5a03-4dba-a5ed-4e21fcb3ba9c restarted
 [I 08:53:55.883 NotebookApp] Starting buffering for fdb0c991-2cea-40d9-bf77-b06545e1ff39:5c80ce226e104fbfad437181d98e2258
 [W 08:54:08.368 NotebookApp] WebSocket ping timeout after 119889 ms.
 [I 08:54:13.370 NotebookApp] Starting buffering for b1882e3a-1552-4257-9051-20542b6e99f0:88ae3d46d1e0456585244db766be076c
+[I 09:13:10.248 NotebookApp] Restoring connection for fdb0c991-2cea-40d9-bf77-b06545e1ff39:5c80ce226e104fbfad437181d98e2258
+[I 09:13:10.268 NotebookApp] Restoring connection for b1882e3a-1552-4257-9051-20542b6e99f0:88ae3d46d1e0456585244db766be076c
+[I 09:13:10.291 NotebookApp] Restoring connection for d128b01c-0b74-4f3c-af2d-2cc5dabea0fa:e9ead34ae0494e30a52cfa82c7bfe8cd
